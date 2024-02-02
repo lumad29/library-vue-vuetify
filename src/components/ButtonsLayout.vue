@@ -2,7 +2,7 @@
 <v-container>
   <v-row justify="center">
     <v-col cols="4">
-  <v-btn text="hola" color="primary" class="rounded-xl" size="large" block />
+  <v-btn text="hello" color="primary" class="rounded-xl" size="large" block />
     </v-col>
         <v-col cols="2"/>
         <v-col cols="4">
