@@ -18,8 +18,19 @@ const myCustomLightTheme = {
   },
 };
 
+// set prop defaults to all VBtn components
+const defaults = {
+  VBtn: {
+    color: "primary",
+    class: "rounded-xl",
+    size: "large",
+  },
+};
+
 // https://vuetifyjs.com/en/introduction/why-vuetify/#feature-guides
 export default createVuetify({
+  // add defaults
+  defaults,
   theme: {
     defaultTheme: "myCustomLightTheme",
     themes: {

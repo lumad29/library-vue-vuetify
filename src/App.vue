@@ -1,11 +1,12 @@
 <template>
 <v-app>
  <the-navbar />
-    <v-main scrollable>
-      <div class="d-flex flex-col h-100">
-            <div class="d-flex h-100 bg-blue"></div>
+    <v-main scrollable class="bg-bluex">
+      <div class="d-flex flex-column h-100 bg-grex mt-6">
       <buttons-layout />
+      <books-form justify="end"/>
       </div>
+     
       <!-- <HelloWorld /> -->
     <!-- <h1 v-for="(item, index) in people"> {{ `${item} ${index}` }}</h1> -->
     <!-- <v-btn @click="addItem">add item</v-btn> -->
@@ -19,6 +20,7 @@
 import TheNavbar from '@/components/TheNavbar.vue'
 import TheFooter from '@/components/TheFooter.vue'
 import ButtonsLayout from '@/components/ButtonsLayout.vue'
+import BooksForm from '@/components/BooksForm.vue'
 
   // import {reactive} from 'vue'
   // const people = reactive(['lucre', 'santi'])
